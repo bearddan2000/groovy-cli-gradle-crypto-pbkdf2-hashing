@@ -1,0 +1,13 @@
+apply plugin: 'application'
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  implementation 'commons-codec:commons-codec:1.15'
+  implementation 'org.codehaus.groovy:groovy-all:3.0.7'
+}
+
+mainClassName = 'example.Main'
